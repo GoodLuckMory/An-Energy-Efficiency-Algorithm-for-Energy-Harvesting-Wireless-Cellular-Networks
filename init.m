@@ -1,5 +1,5 @@
 
-%[energy_demanded_ma,energy_demanded_mi,energy_demanded_pi] = energydemand();
+[energy_demanded_ma,energy_demanded_mi,energy_demanded_pi] = energydemand();
 [power_sum,u_macro,u_macro_match,nega_energy] = algorithm(20.1,4.5,1,energy_demanded_ma,energy_demanded_mi,energy_demanded_pi);
 
 zeta = 100; % 服务用户每耗费一焦耳能量获得的效用（单位收益）
