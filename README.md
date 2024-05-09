@@ -16,3 +16,6 @@ generate_ppp.m文件生成ppp泊松点过程
 
 untility_function.m文件计算出该算法的效用函数
 
+energydemand.m计算出基站的需求能量值
+
+*由于algorithm.m里面绘制曲线 因此在运行init.m时 代入不同参数产生多个图像*
